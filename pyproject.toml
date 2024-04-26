@@ -6,8 +6,8 @@ authors = ["veledara <painriddlegaming@gmail.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "^3.11"
-
+python = "^3.8, <3.13"
+pyside6 = "^6.6.0"
 
 [build-system]
 requires = ["poetry-core"]
